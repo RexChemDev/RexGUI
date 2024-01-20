@@ -4,6 +4,9 @@ from sheet_importer import pullexcel
 from network import ot_send
 import traceback
 
+print("Ignore this terminal, it needs to be here for GUI to compile without")
+print("being flagged as malware. MICROSOFT.")
+
 sg.theme("dark grey 8")
 
 valid_ext = [".xls", ".xlsx"]
